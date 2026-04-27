@@ -11,8 +11,10 @@ while not salir:
     if Edad > 0:
         if Edad < 18:
             print("Eres menor de edad")
-        elif Edad >= 18 and Edad < 65:
+        elif Edad >= 18 and Edad < 60:
             print("Eres mayor de edad")
+        elif Edad >= 60 and Edad < 90:
+            print("Ya puedes solicitar la tarjeta del cabezita de algodón")
         else:
             print("Ya estas viejito...")
     else:
