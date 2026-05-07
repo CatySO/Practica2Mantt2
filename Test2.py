@@ -4,7 +4,7 @@ class Perro:
         self.raza = raza
     
     def ladrar(self):
-        print("Guau!")
+        print("Gua Gua Guau!")
 
 perro = Perro("Niebla", "Mastín")
 print(perro.nombre)
